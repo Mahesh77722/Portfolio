@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Alternates Regular'), local('Montserrat-Alternates'), url('./fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Pixelify Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pixelify Sans Regular'), local('Pixelify Sans'), url('./fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Silkscreen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Silkscreen Regular'), local('Silkscreen'), url('./fonts/Silkscreen/Silkscreen-Regular.ttf') format('truetype');
+}
+
+
+.designationMontserrat {
+    font-family: 'Montserrat Alternates';
+}
+
+body {
+    background-image: url("./images/Background.jpg");
+    z-index: -1;
+    filter: alpha(opacity=90);
+}
+
+.helloWorld {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.MaheshModel {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-2 {
+    text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-3 {
+    text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
